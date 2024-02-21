@@ -1,0 +1,22 @@
+INSERT INTO public."company" (
+	"logo_url",
+	"main_contact",
+	"name",
+	"address",
+	"phone",
+	"email",
+	"description",
+	"website",
+	"created",
+	"updated")
+VALUES (
+	'{{insert_form.formData.logo_url}}',
+	'{{insert_form.formData.main_contact}}',
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.address}}',
+	'{{insert_form.formData.phone}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.description}}',
+	'{{insert_form.formData.website}}',
+	'{{insert_form.formData.created}}',
+	'{{insert_form.formData.updated}}');

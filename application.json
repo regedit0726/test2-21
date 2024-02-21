@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "id": "Page2",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": true
+    },
+    {
+      "id": "Public.users",
+      "isDefault": false
+    },
+    {
+      "id": "Public.company",
+      "isDefault": false
+    },
+    {
+      "id": "Public.users2",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "63ae9a3e639e241a2b853f97",
+  "color": "#C7F3E3",
+  "icon": "calender",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

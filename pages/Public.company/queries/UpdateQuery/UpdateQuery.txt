@@ -1,0 +1,12 @@
+UPDATE public."company" SET
+		"logo_url" = '{{update_form.fieldState.logo_url.isVisible ? update_form.formData.logo_url : update_form.sourceData.logo_url}}',
+		"main_contact" = '{{update_form.fieldState.main_contact.isVisible ? update_form.formData.main_contact : update_form.sourceData.main_contact}}',
+    "name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"address" = '{{update_form.fieldState.address.isVisible ? update_form.formData.address : update_form.sourceData.address}}',
+		"phone" = '{{update_form.fieldState.phone.isVisible ? update_form.formData.phone : update_form.sourceData.phone}}',
+		"email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		"description" = '{{update_form.fieldState.description.isVisible ? update_form.formData.description : update_form.sourceData.description}}',
+		"website" = '{{update_form.fieldState.website.isVisible ? update_form.formData.website : update_form.sourceData.website}}',
+		"created" = '{{update_form.fieldState.created.isVisible ? update_form.formData.created : update_form.sourceData.created}}',
+		"updated" = '{{update_form.fieldState.updated.isVisible ? update_form.formData.updated : update_form.sourceData.updated}}'
+WHERE "id" = {{data_table.selectedRow.id}};
